@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows</title>
+    <link rel="shortcut icon" href="ROYAL SWEETS Logo - Original - 5000x5000.png" type="image/x-icon">
+    <style>
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            --primary-color: brown;
+            --primary-width: 350px;
+            background-color: pink;
+            width: var(--primary-width);
+            height: 350px;
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 10px;
+            /* box-shadow: 10px 10px var(--primary-color); */
+            box-shadow: 10px 10px 15px lightseagreen;
+            /* box-shadow: 10px 10px 5px 20px lightseagreen; */
+            /* box-shadow: inset 10px 10px 8px 12px lightseagreen; */
+            /* box-shadow: 10px 10px  lightseagreen , 15px 15px 10px black; */
+        }
+        #head{
+            /* text-shadow: 2px 3px 5px lightseagreen; */
+            /* text-shadow: lightskyblue 2px 3px 5px ; */
+            text-shadow: 2px 3px 5px lightseagreen , 12px 13px 5px red , 22px 23px 5px green;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="ROYAL SWEETS Logo - Original - 5000x5000.png">
+            <h1 id="head">Vaibhav Dutta Enpower</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur nihil voluptate nulla quos cum
+                repellendus sequi doloribus sed? Odio quod tempore, illum dicta voluptate libero ex quidem sequi
+                corrupti.</p>
+        </div>
+    </div>
+</body>
+
+</html>

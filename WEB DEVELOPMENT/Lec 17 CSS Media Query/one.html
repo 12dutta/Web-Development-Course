@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query example</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            padding: 2px;
+            margin: 10px;
+        }
+        .box1{
+            border: 2px solid brown;
+            background-color: aquamarine;
+            width: 47%;
+            margin: 3px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box2{
+            border: 2px solid blue;
+            background-color: greenyellow;
+            width: 47%;
+            margin: 3px;
+            padding: 2px;
+        }
+        p{
+            border: 1px solid black;
+        }
+        img{
+            width: 230px;
+        }
+        @media (max-width:640px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <p>My name is vaibhav</p>
+            <p>I play football everyday</p>
+        </div>
+        <div class="box2">
+            <img src="images.jpg" >
+        </div>
+    </div>
+</body>
+</html>

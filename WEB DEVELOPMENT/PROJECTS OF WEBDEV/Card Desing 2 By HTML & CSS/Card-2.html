@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media card</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .items{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+        }
+        .card1{
+            width: 350px;
+            height: 500px;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+        .card2{
+            width: 350px;
+            height: 500px;
+            background-color: rgb(255, 0, 119);
+            border-radius: 10px;
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+        .card3{
+            width: 350px;
+            height: 500px;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+        .card1 img{
+            height: 75px;
+            width: 75px;
+        }
+        .card2 img{
+            /* overflow: hidden; */
+            height: 100px;
+            width: 100px;
+        }
+        #style{
+            color: white;
+        }
+        #content{
+            color: white;
+        }
+        .card3 img{
+            height: 75px;
+            width: 75px;;
+        }
+        h1{
+            font-weight: bolder;
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p{
+            text-align: center;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        button{
+            color: white;
+            background: black;
+            padding: 20px 20px;
+            margin-top: 10px;
+            border-radius: 40px;
+            width: 250px;
+            font-size: large;
+        }
+        #btn2{
+            color: rgb(255, 0, 149);
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">
+            <div class="card1">
+                <img src="twitter.png">
+                <h1>TWITTER</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero, exercitationem repellat at recusandae minus.</P>
+                <button>READ MORE</button>
+            </div>
+            <div class="card2">
+                <img src="instagram.png">
+                <H1 id="style">INSTAGRAM</H1>
+                <P id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero, exercitationem repellat at recusandae minus.</P>
+                <button id="btn2">READ MORE</button>
+            </div>
+            <div class="card3">
+                <img src="youtube.avif">
+                <H1>YOUTUBE</H1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa libero, exercitationem repellat at recusandae minus.</P>
+                <button>READ MORE</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
