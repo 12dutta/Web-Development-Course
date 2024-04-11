@@ -1,0 +1,35 @@
+                                            VARIABLES & DATATYPES IN JavaScript
+variables - named memory location
+variables ko hum var, let & const se create kar sakte hai.
+
+var function scoped me chalta hai mtlb use kahi bhi use kar sakte hai.  Reassignment and Redefinition kar sakte hai.
+
+let keval blocked scoped me hi chalta hai mtlb {} ke ander hi access kar payenge.  In let we can not create multiple variable with same name.
+eg.- let a = 2;
+     let a = 3;   that will give an error,   but in var we can create it.
+manipulate kar sakte hai means 'a' ki valuewise dusari assign kar sakte hai.
+
+const is used to declare constant This means that once a value is assigned to a constant using const, it cannot be changed or reassigned throughout the execution of the script.
+
+
+Variables naming convention:-
+- number, _ , $ se kar sakte hai
+- no space
+- camel case allowed eg.- "ageOfPerson" "discountPerWomen" phla word small me bake ke starting word capital me hona chahiye.
+- meaningful hona chahiye
+- reserved keyword nahi hona chahiye
+
+
+
+                                             DATATYPES
+
+Primitive Datatypes                                                                    Non-Primitive Datatypes
+- number
+- string 
+- boolean
+- undefined
+- Null
+- BigInt  2 ki power 53 - 1
+- Symbol                                           
+
+
