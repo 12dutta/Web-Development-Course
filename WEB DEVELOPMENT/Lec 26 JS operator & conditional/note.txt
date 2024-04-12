@@ -1,0 +1,17 @@
+ Unary Operator->  ++ Pre increment,   -- Post decrement
+  pre incr me phele value increment hogi fir value print hogi
+  post incr me phele value print hogi fir increment hoga
+  let c = 4;
+  console.log(c++);   
+same with post & pre decrement --
+
+Assignment Operator-> =,  +=,  -=,  *=,  /=
+  let a = 2;
+  a = a + 10;  same as  a += 10;  O/P-> 12
+  a = a - 10;  same as  a -= 10;  O/P-> 8
+  a = a * 10;  same as  a *= 10;  O/P-> 20
+  a = a / 10;  same as  a /= 10;  O/P-> 5
+
+
+Comparison Operator->  <,  >,  ==,  >=,  <=,  !=,  ===,  !==
+there o/p is always in True or False.
