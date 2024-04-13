@@ -25,3 +25,33 @@ Strict Equality v/s Loose Equality
 Ternary operator:- (Conditional operator)
  three part hote hai- condition, statement, to execute if the condition is true and the statement to execute if the condition is false.
  Syntax-> (condition) ? (statement1) : (statement2);
+
+Logical operator:-
+AND(&&)
+ sb true toh true return karega
+ or agar ek bhi false hai toh false return karega
+OR(||)
+ agar koi bhi ek true hai toh true return karega
+ or agar sb false hai toh false return karega
+NOT(!)
+ true hai toh false return karega
+ false hai toh true return karega.
+
+Working With Non - boolean:-
+(false && 'dutta')     false
+(false || 3)           true
+(true || "Vaibhav")    true
+
+              Non boolean
+Truthy                             Falsey 
+anything which                   undefined
+is not                            null
+falsey                             0
+                                  false
+                                  NaN
+                                  ' '
+
+Short Circuiting:-
+(false || true || true || false);
+
+                            

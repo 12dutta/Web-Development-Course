@@ -16,8 +16,10 @@ console.log(b);
 // ternary operator
 let myage = 11;
 
-(myage >= 18) ? (console.log("Can Drive")) : (console.log("Cannot Drive"));
+// (myage >= 18) ? (console.log("Can Drive")) : (console.log("Cannot Drive"));
 
-// Output : Cannot Drive
-
+// non boolean logical operator
+console.log(false || 'Dutta');
+console.log(false || '3');
+console.log(false || '0.8');
 
