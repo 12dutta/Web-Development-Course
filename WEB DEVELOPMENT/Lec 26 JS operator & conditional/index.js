@@ -23,3 +23,9 @@ console.log(false || 'Dutta');
 console.log(false || '3');
 console.log(false || '0.8');
 
+// Bitwise operator
+console.log(2 | 5);
+console.log(~(0));
+console.log(2 ^ 2);
+
+

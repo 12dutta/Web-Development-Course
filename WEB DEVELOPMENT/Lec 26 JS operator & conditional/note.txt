@@ -52,6 +52,10 @@ falsey                             0
                                   ' '
 
 Short Circuiting:-
-(false || true || true || false);
+The logical AND expression is a short-circuit operator. As each operand is converted to a boolean, if the result of one conversion is found to be false, the AND operator stops and returns the original value of that falsy operand; it does not evaluate any of the remaining operands.
+  Syntax-> (false || true || true || false);
+
+BitWise Operator:-
+Not(~): bit level par fill karta hai
 
                             
