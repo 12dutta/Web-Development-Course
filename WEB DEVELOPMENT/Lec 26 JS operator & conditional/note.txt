@@ -1,11 +1,13 @@
- Unary Operator->  ++ Pre increment,   -- Post decrement
+                                                 OPERATORS AND CONDITIONALS
+
+ Unary Operator:-  ++ Pre increment,   -- Post decrement
   pre incr me phele value increment hogi fir value print hogi
   post incr me phele value print hogi fir increment hoga
   let c = 4;
   console.log(c++);   
 same with post & pre decrement --
 
-Assignment Operator-> =,  +=,  -=,  *=,  /=
+Assignment Operator:- =,  +=,  -=,  *=,  /=
   let a = 2;
   a = a + 10;  same as  a += 10;  O/P-> 12
   a = a - 10;  same as  a -= 10;  O/P-> 8
@@ -13,5 +15,13 @@ Assignment Operator-> =,  +=,  -=,  *=,  /=
   a = a / 10;  same as  a /= 10;  O/P-> 5
 
 
-Comparison Operator->  <,  >,  ==,  >=,  <=,  !=,  ===,  !==
+Comparison Operator:-  <,  >,  ==,  >=,  <=,  !=,  ===,  !==
 there o/p is always in True or False.
+
+Strict Equality v/s Loose Equality
+  - Strict equality is denoted by '==='. When we use strict equality operator, both the data-type and the value are checked to determine equality, and it returns a boolean answer.
+  - Loose equality is denoted by '=='. When we use loose equality operator, only the value is checked to determine equality, and it returns a boolean answer.
+
+Ternary operator:- (Conditional operator)
+ three part hote hai- condition, statement, to execute if the condition is true and the statement to execute if the condition is false.
+ Syntax-> (condition) ? (statement1) : (statement2);

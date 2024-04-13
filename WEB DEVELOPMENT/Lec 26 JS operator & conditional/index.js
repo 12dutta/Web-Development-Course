@@ -13,6 +13,11 @@ b -= 2;
 console.log(b);
 
 
+// ternary operator
+let myage = 11;
 
+(myage >= 18) ? (console.log("Can Drive")) : (console.log("Cannot Drive"));
+
+// Output : Cannot Drive
 
 
