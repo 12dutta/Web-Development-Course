@@ -28,7 +28,7 @@
 //         console.log(i);
 // }
 
-// while loop
+// WHILE LOOP
 // let i = 1;
 // while(i<=5) {
 //     console.log(i);
@@ -36,15 +36,23 @@
 // }
 
 // while loop with continue
-let i = 1;
-while(i < 5) {
-    console.log("inside the loop");
-    if(i == 3) {
-        i++;
-        continue;
+// let i = 1;
+// while(i < 5) {
+//     console.log("inside the loop");
+//     if(i == 3) {
+//         i++;
+//         continue;
     
-    }    
-    else
-        console.log(i);
-        i++;    
+//     }    
+//     else
+//         console.log(i);
+//         i++;    
+// }
+
+// DO-WHILE LOOP
+let i = 1;
+do{
+    console.log("vaibhav");
+    i++;
 }
+while(i<=10);

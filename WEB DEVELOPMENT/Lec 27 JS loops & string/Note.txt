@@ -15,8 +15,16 @@ Loops:-
             //updation
           }
 
-  do-while
-  syntax- 
+  do-while loop
+  syntax- //initialisation
+          do
+          {
+            loop logic
+
+            //updation
+          }
+          while(condition)
+
  JavaScript ko aur loop hai.
   for in
   for each
