@@ -11,3 +11,8 @@ Loops:-
   for in
   for each
   for of  
+
+keyword-> break, continue,  iteration
+break mean seedha for loop se bhar aha jao.
+continue mean vo sare case check karega jbki use if condition match ho gayi hai.
+
