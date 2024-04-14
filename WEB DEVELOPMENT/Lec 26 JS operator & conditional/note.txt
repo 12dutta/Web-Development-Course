@@ -57,5 +57,14 @@ The logical AND expression is a short-circuit operator. As each operand is conve
 
 BitWise Operator:-
 Not(~): bit level par fill karta hai
+left shift (<<) eg., 5 << 2 mean 2 se multiple hoga 5 * 2 * 2= 20
+right shift (>>) eg,. 10 >> 3 mean 2 ki power 3 se divide ho jayega 10 / 2^3.
+
+
+                             Conditionals 
+if-else
+if
+if-else-if
+switch                                   
 
                             
