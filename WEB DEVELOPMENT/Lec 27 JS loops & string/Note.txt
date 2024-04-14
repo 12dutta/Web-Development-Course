@@ -1,12 +1,22 @@
                                                  LOOPS AND STRING
 Loops:-
   for-loop
-  syntax- for(initialization ; condition ; updation)
+  syntax- for(initialisation ; condition ; updation)
+          {
+            //loop logic
+          }
+
+  while loop    
+  syntax- //initialisation  
+          while(condition)             
           {
             loop logic
+
+            //updation
           }
-  while
+
   do-while
+  syntax- 
  JavaScript ko aur loop hai.
   for in
   for each

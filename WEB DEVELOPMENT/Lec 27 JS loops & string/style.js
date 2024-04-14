@@ -12,11 +12,39 @@
 //     console.log(i);
 // }
 
-// for loop with break keyword
+// for loop with Break keyword
+// for(let i=1; i<=6; i++) {
+//     if(i == 5)
+//      break;
+//     else
+//      console.log(i);
+// }
 
-for(let i=1; i<=6; i++) {
-    if(i == 5)
-     break;
+// for loop with Continue keyword
+// for(let i=1; i<=5; i++) {
+//     if(i == 3)
+//         continue;
+//     else
+//         console.log(i);
+// }
+
+// while loop
+// let i = 1;
+// while(i<=5) {
+//     console.log(i);
+//     i++;
+// }
+
+// while loop with continue
+let i = 1;
+while(i < 5) {
+    console.log("inside the loop");
+    if(i == 3) {
+        i++;
+        continue;
+    
+    }    
     else
-     console.log(i);
+        console.log(i);
+        i++;    
 }
