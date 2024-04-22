@@ -50,9 +50,27 @@
 // }
 
 // DO-WHILE LOOP
-let i = 1;
-do{
-    console.log("vaibhav");
-    i++;
-}
-while(i<=10);
+// let i = 1;
+// do{
+//     console.log("vaibhav");
+//     i++;
+// }
+// while(i<=10);
+
+// String
+// let firstname = "Vaibhav";
+// let secondname = 'Dutta';
+
+// let name = `Gwagon 
+// fault`;
+// console.log(name);
+
+// let FirstName = new String("vaibhav dutta");
+// console.log(FirstName);
+
+let op1 = "Maths ";
+let op2 = "Science ";
+
+let ans = op1 + op2;
+console.log(ans);
+
