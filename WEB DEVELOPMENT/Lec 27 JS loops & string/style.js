@@ -70,13 +70,16 @@
 
 let op1 = "Maths ";
 let op2 = "Science";
-// console.log(op2.length); 
+console.log(op2.length); 
 
 // let ans = op1 + op2;
-let ans = `${op1}${op2}`; //another way to operate Concatenation addition with backticks
+// let ans = `${op1}${op2}`; //another way to operate Concatenation addition with backticks
 // console.log(ans);
 
-console.log(op2.toUpperCase());
-console.log(op2.toLowerCase());
+// console.log(op2.toUpperCase());
+// console.log(op2.toLowerCase());
 
+let str = "Vaibhav";
+// console.log(str.substring(3));
+console.log(str.substring(3,6));
 
