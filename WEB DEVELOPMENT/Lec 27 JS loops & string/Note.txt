@@ -36,4 +36,4 @@ continue mean vo sare case check karega jbki use if condition match ho gayi hai.
 
 
 STRING:-
-we can create string by three way " " , ' ' , ` ` inn theno se hum strind kar sakte hai.
+we can create string by three way " " , ' ' , ` ` (backticks) inn theno se hum strind kar sakte hai.
