@@ -1,1 +1,1 @@
-let op2 = "Science";
+console.log(op2.length); 

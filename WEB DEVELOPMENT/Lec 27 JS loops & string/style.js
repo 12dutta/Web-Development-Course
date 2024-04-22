@@ -81,5 +81,9 @@ console.log(op2.length);
 
 let str = "Vaibhav";
 // console.log(str.substring(3));
-console.log(str.substring(3,6));
+// console.log(str.substring(3,6));
+
+let sentence = "My Name is Vaibhav Dutta";
+let words = sentence.split(' ');
+console.log(words);
 
