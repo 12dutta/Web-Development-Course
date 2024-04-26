@@ -24,10 +24,48 @@ printNumber(34);
 // getAverage(3,70);
 
 // Return functions
-function getSum(a,b,c) {
-    let sum = a+b+c;
-    return sum;
+// function getSum(a,b,c) {
+//     let sum = a+b+c;
+//     return sum;
+// }
+// let ans = getSum(1,2,3);
+// console.log("printing sum: ", ans);
+
+function getMyName(firstname, lastname) {
+    let fullName = firstname + " " + lastname;
+    return fullName;
+    //unreachble statement -> return ke niche likhe code kabhi bhi run nahi hoga
+    // let a = 3;
+    // let b = 3;
+    // let sum = a+b;
+    // console.log (sum);
 }
-let ans = getSum(1,2,3);
-console.log("printing sum: ", ans);
+// let ans = getMyName("Vaibhav", "Dutta");
+// console.log("Full Name: ", ans);
+
+
+
+//another way to create function with variables
+// const getMultiplication = function(a, b) {
+//     return a*b;
+// }
+// console.log(getMultiplication(3,20));
+
+
+const getSquare = function (num) {
+    // let ans = num**2;
+    return(num**2);
+}
+console.log(getSquare(5));
+
+
+
+//Arrow function with => symbol
+let getExp = (x,y) => {
+    let exp = x**y;
+    return exp;
+}
+console.log(getExp(2,10));
+
+
 
