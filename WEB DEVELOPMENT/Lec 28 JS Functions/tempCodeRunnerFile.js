@@ -1,1 +1,1 @@
-sayMyName();
+printCounting();

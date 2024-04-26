@@ -12,5 +12,12 @@ syntax -
 
           functionName ();   // function call
 Agar hum function call nahi karenge toh function nahi chalega.
-          
+
+function with parameter
+syntax -
+         function printNumber(num) {      //num yha pe parameter hai
+            console.log("printing number: ", num);
+         }
+        printNumber(34);                  //34 yha pe number hai jisko argument kehte hai
+
 
