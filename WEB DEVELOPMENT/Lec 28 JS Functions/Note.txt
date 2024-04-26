@@ -1,0 +1,3 @@
+______________________FUNCTION IN JAVASCRIPT________________________
+
+A function is a block of code jo specific task perform karta hai.
