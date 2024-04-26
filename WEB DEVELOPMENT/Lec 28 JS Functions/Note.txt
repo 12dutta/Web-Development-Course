@@ -9,15 +9,19 @@ syntax -
             // line of code
 
           }
-
           functionName ();   // function call
 Agar hum function call nahi karenge toh function nahi chalega.
 
 function with parameter
 syntax -
-         function printNumber(num) {      //num yha pe parameter hai
+         function printNumber(num) {      //num yha pe parameter function ka
             console.log("printing number: ", num);
          }
-        printNumber(34);                  //34 yha pe number hai jisko argument kehte hai
+        printNumber(34);                 //34 yha pe number hai jisko argument kehte hai function call ka
+
+_______________________function return_______________________________
+
+function return mean badle me kuch wapas karna jaise ki output, data etc
+e.g.- kirane wali dukan se koi cheez karigna
 
 
