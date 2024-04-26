@@ -1,3 +1,16 @@
 ______________________FUNCTION IN JAVASCRIPT________________________
 
 A function is a block of code jo specific task perform karta hai.
+syntax -   
+                // function definition
+          function functionName ()  // () bracket for parameter
+          {
+
+            // line of code
+
+          }
+
+          functionName ();   // function call
+Agar hum function call nahi karenge toh function nahi chalega.
+          
+
