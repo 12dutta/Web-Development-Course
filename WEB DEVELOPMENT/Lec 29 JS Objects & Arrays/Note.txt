@@ -17,4 +17,22 @@ Stack : Stack memory is used for storing local variables with primitive data typ
 
 Heap : Heap memory is a more flexible and dynamic memory space used for dynamic memory allocation. Heap memory is used for storing reference datatypes such as objects, arrays. Heap memory can grow dynamically during program execution, and its size is usually much larger than the stack.
 
-Shallow Copy
+Shallow Copy VS Deep Copy
+
+Array:- it is a collection of items/elements.
+syntax -
+        let arr [1,2,3,4,5];
+Build-in Methods
+      - push -> insert at end
+      - pop -> remove from last
+      - shift -> remove first item form leftmost
+      - unshift -> add first item from leftmost
+      - slice -> new part nikalte hai
+      - splice
+      - map
+      - filter
+      - reduce
+      - sort
+      - index of
+      - find
+
