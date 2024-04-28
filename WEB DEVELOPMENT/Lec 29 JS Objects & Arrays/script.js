@@ -9,3 +9,4 @@ let obj = {
 };
 console.log(obj);
 obj.greet();
+console.log(typeof(obj));

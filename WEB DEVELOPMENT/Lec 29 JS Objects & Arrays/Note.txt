@@ -1,4 +1,4 @@
-_______________________________________________REFERENCE TYPES_________________________________________________________
+_______________________________________________REFERENCE TYPES__________________________________________________
 1. Array
 2. Object
 3. Function
@@ -8,4 +8,13 @@ syntax -
          let obj = {
             name: "vaibhav",
             age: 22
+            line of code
          };
+         console.log(obj);
+
+Stack & Heap memory allocation:-
+Stack : Stack memory is used for storing local variables with primitive data types such as int, string, bool, etc. The size of stack memory is typically fixed and limited, determined at compile time.
+
+Heap : Heap memory is a more flexible and dynamic memory space used for dynamic memory allocation. Heap memory is used for storing reference datatypes such as objects, arrays. Heap memory can grow dynamically during program execution, and its size is usually much larger than the stack.
+
+Shallow Copy
