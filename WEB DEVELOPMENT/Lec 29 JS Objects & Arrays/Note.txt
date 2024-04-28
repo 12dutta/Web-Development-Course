@@ -1,0 +1,11 @@
+_______________________________________________REFERENCE TYPES_________________________________________________________
+1. Array
+2. Object
+3. Function
+
+Object:- it is a collection of key value pairs.
+syntax -
+         let obj = {
+            name: "vaibhav",
+            age: 22
+         };
