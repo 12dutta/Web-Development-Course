@@ -22,6 +22,6 @@ syntax -
 _______________________function return_______________________________
 
 function return mean badle me kuch wapas karna jaise ki output, data etc
-e.g.- kirane wali dukan se koi cheez karigna
+e.g.- kirane wali dukan se koi cheez karigna.
 
 
