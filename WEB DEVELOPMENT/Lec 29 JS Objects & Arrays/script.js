@@ -109,11 +109,30 @@ brr.splice(1,3, 'Bablu');
 
 
 //For Of-> iterable object = array, string
+// let arr = [10,20,30,40,50];
+// for(let value of arr) {
+//     console.log(value);
+// }
+// let fullName = "Vaibhav";
+// for(let value of fullName) {
+//     console.log(value);
+// }
+
+
+//Array with Function
 let arr = [10,20,30,40,50];
-for(let value of arr) {
-    console.log(value);
+function getSum(arr) {
+    let sum = 0;
+    arr.forEach((value) => {
+        sum = sum + value;
+    })
+    return sum;
+    // let len = arr.length;
+    // let sum = 0;
+    // for(let index=0; index<len; index++) {
+    //     sum = sum + arr[index];
+    // }
+    // return sum;
 }
-let fullName = "Vaibhav";
-for(let value of fullName) {
-    console.log(value);
-}
+let totalSum = getSum(arr);
+console.log(totalSum);

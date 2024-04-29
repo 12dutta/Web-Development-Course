@@ -40,3 +40,6 @@ Remaining Loops:-
 1. for Each
 2. for In 
 3. for Of
+
+
+Array With Function:-
