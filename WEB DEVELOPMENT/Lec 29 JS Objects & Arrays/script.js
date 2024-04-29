@@ -25,6 +25,8 @@ brr.unshift('Name');
 brr.splice(1,3, 'Bablu');
 // console.log(brr);
 
+
+
 //Map function
 // let arr = [10,20,30];
 // arr.map((number, index) => {
@@ -35,6 +37,8 @@ brr.splice(1,3, 'Bablu');
 //     return number*number;
 // })
 // console.log(ansArray);
+
+
 
 //Filter function
 let arr = [10,20,30,11,43,24,51,38];
@@ -48,10 +52,11 @@ let evenArray = arr.filter((number) => {
     // }
 });
 // console.log(evenArray);
+
 let crr = [1,3,'vaibhav','Bablu',true,null];
 let string = crr.filter((value) => {
     // return (typeof(value) === 'string');
-    if(typeof(value) == 'string'){
+    if(typeof(value) == 'number'){
         return true;
     }
     else {
