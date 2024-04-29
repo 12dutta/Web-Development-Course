@@ -7,6 +7,15 @@
 //         console.log("Hello Guys");
 //     }
 // };
+
+
+// //For In -> enumerable properties of object
+// for(let key in obj) {
+//     console.log(key, " ", obj[key]);
+// }
+
+
+
 // console.log(obj);
 // obj.greet();
 // console.log(typeof(obj));
@@ -68,10 +77,10 @@ brr.splice(1,3, 'Bablu');
 
 
 //Reduce function
-let arr = [10,20,30,40];
-let ans = arr.reduce((acc, curr) => { //acc->accumulator curr->current
-    return acc + curr;
-}, 0);
+// let arr = [10,20,30,40];
+// let ans = arr.reduce((acc, curr) => { //acc->accumulator curr->current
+//     return acc + curr;
+// }, 0);
 // console.log(ans);
 
 
@@ -85,4 +94,13 @@ let ans = arr.reduce((acc, curr) => { //acc->accumulator curr->current
 
 
 //For each
-
+let arr = [10,20,30];
+let length = arr.length;
+console.log("Lenght: ", length);
+//traditional loop
+for(let index=0; index<length; index++) {
+    console.log(arr[index]);
+}
+// arr.forEach((value, index) => {
+//     console.log("Number: ", value, "Index : ", index);
+// })
