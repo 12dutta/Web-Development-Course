@@ -69,7 +69,20 @@ brr.splice(1,3, 'Bablu');
 
 //Reduce function
 let arr = [10,20,30,40];
-let ans = arr.reduce((acc, curr) => {
+let ans = arr.reduce((acc, curr) => { //acc->accumulator curr->current
     return acc + curr;
 }, 0);
-console.log(ans);
+// console.log(ans);
+
+
+
+//Sort
+// let drr = [2,4,1,3,5,8];
+// drr.sort();
+// console.log(drr);
+// console.log(drr.indexOf(3)); //index ko find karna ho toh
+
+
+
+//For each
+
