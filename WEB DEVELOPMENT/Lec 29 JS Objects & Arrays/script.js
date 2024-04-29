@@ -41,26 +41,35 @@ brr.splice(1,3, 'Bablu');
 
 
 //Filter function
-let arr = [10,20,30,11,43,24,51,38];
-let evenArray = arr.filter((number) => {
-    return number%2 === 0;
+// let arr = [10,20,30,11,43,24,51,38];
+// let evenArray = arr.filter((number) => {
+//     return number%2 === 0;
     // if(number%2 === 0) {
     //     return true;
     // }
     // else {
     //     return false;
     // }
-});
+// });
 // console.log(evenArray);
 
-let crr = [1,3,'vaibhav','Bablu',22,true,null];
-let string = crr.filter((value) => {
+// let crr = [1,3,'vaibhav','Bablu',22,true,null];
+// let string = crr.filter((value) => {
     // return (typeof(value) === 'string');
-    if(typeof(value) == 'number'){
-        return true;
-    }
-    else {
-        return false;
-    }
-});
-console.log(string);
+//     if(typeof(value) == 'number'){
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// });
+// console.log(string);
+
+
+
+//Reduce function
+let arr = [10,20,30,40];
+let ans = arr.reduce((acc, curr) => {
+    return acc + curr;
+}, 0);
+console.log(ans);
