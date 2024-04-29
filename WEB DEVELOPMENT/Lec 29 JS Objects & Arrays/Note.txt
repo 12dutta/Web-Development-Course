@@ -28,7 +28,7 @@ Build-in Methods
       - shift -> remove first item form leftmost
       - unshift -> add first item from leftmost
       - slice -> new part nikalte hai
-      - splice
+      - splice -> array ke content ko change kar sakte hai (insert, remove, replace) kissi bhi jagah pe
       - map
       - filter
       - reduce
