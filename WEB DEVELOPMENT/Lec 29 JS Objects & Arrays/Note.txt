@@ -29,8 +29,8 @@ Build-in Methods
       - unshift -> add first item from leftmost
       - slice -> new part nikalte hai
       - splice -> array ke content ko change kar sakte hai (insert, remove, replace) kissi bhi jagah pe
-      - map
-      - filter
+      - map -> array me kuch update karna ho jaise (square, add, divide, mutiple)etc 
+      - filter -> koi specific alag kar sakte h (string, number, boolean) etc ( even odd find kar sakte hai array se)
       - reduce
       - sort
       - index of

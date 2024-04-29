@@ -53,7 +53,7 @@ let evenArray = arr.filter((number) => {
 });
 // console.log(evenArray);
 
-let crr = [1,3,'vaibhav','Bablu',true,null];
+let crr = [1,3,'vaibhav','Bablu',22,true,null];
 let string = crr.filter((value) => {
     // return (typeof(value) === 'string');
     if(typeof(value) == 'number'){
