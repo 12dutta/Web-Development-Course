@@ -94,13 +94,26 @@ brr.splice(1,3, 'Bablu');
 
 
 //For each
-let arr = [10,20,30];
-let length = arr.length;
-console.log("Lenght: ", length);
+// let arr = [10,20,30];
+// let length = arr.length;
+// console.log("Lenght: ", length);
 //traditional loop
-for(let index=0; index<length; index++) {
-    console.log(arr[index]);
-}
+// for(let index=0; index<length; index++) {
+//     console.log(arr[index]);
+// }
 // arr.forEach((value, index) => {
 //     console.log("Number: ", value, "Index : ", index);
 // })
+
+
+
+
+//For Of-> iterable object = array, string
+let arr = [10,20,30,40,50];
+for(let value of arr) {
+    console.log(value);
+}
+let fullName = "Vaibhav";
+for(let value of fullName) {
+    console.log(value);
+}
