@@ -62,3 +62,14 @@ let age = 22;
 // let first = arr[1];
 // let ans = first(5,10);
 // console.log(ans);
+
+let obj = {
+    age: 23,
+    wt: 76,
+    ht: 170,
+    greet: () => {
+        console.log("Heloo guys");
+    }
+}
+console.log(obj.wt);
+obj.greet();
