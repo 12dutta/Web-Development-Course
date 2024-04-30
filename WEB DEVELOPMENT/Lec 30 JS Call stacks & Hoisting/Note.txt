@@ -1,3 +1,5 @@
 _____________________________________Call Stacks & Hoisting_____________________________________
 
-Hoisting:- ek ahesa process hai jo ki apki varible declaration hai (var keyword ko use karke bnayi hogi) unko aur apki jo bhi function declaration haishift kar deta hai to the top in their scope.
+Function Hoisting:- ek ahesa process hai jo ki apki varible declaration hai (var keyword ko use karke bnayi hogi) unko aur apki jo bhi function declaration haishift kar deta hai to the top in their scope.
+
+Variable Hoisting:- jo bhi varible aap var keyword se banaye ge vo apne current scope ke top par shift kar jayega inshort ye hai ki apke variable declaration top pe shift kar jayegi scope ke ander or current scope ke ander aor aap apne varible ko print kar payenge o/p undefined ahega par aap access kar payenge.
