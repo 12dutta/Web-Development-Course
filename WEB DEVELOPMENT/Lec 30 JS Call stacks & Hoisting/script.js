@@ -29,12 +29,36 @@ let age = 22;
 
 
 //Function Class Citizens
-function greetMe(greet, fullName) {
-    console.log("hello ", fullName);
-    greet();
-}
-function greet() {
-    console.log("Greeting for the day");  //function by call function
-}
-greetMe(greet, "Vaibhav Dutta");
+// function greetMe(greet, fullName) {
+//     console.log("hello ", fullName);
+//     greet();
+// }
+// function greet() {
+//     console.log("Greeting for the day");  //function by call function
+// }
+// greetMe(greet, "Vaibhav Dutta");
 
+// function solve(number) {
+//     return function(number) {
+//         return number*number;
+//     }
+// }
+// let ans = solve(4);  //returing the function ahese kar sakte hai
+// let finalAns = ans(10);
+// console.log(finalAns);
+
+
+// const arr = [
+//     function(a,b) {
+//         return a+b;
+//     },
+//     function(a,b) {
+//         return a-b;
+//     },
+//     function(a,b) {
+//         return a*b;   //function ko ahese data struture me store kar skate hai
+//     }, 
+// ];
+// let first = arr[1];
+// let ans = first(5,10);
+// console.log(ans);
