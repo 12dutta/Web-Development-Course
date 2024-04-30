@@ -1,5 +1,13 @@
 _____________________________________Call Stacks & Hoisting_____________________________________
 
 Function Hoisting:- ek ahesa process hai jo ki apki varible declaration hai (var keyword ko use karke bnayi hogi) unko aur apki jo bhi function declaration haishift kar deta hai to the top in their scope.
+simple function se toh chal jayega lekin agar declarationse function bnao ge to function hoisting nahi kaam karega aor reference error dega.
 
 Variable Hoisting:- jo bhi varible aap var keyword se banaye ge vo apne current scope ke top par shift kar jayega inshort ye hai ki apke variable declaration top pe shift kar jayegi scope ke ander or current scope ke ander aor aap apne varible ko print kar payenge o/p undefined ahega par aap access kar payenge.
+
+Blue print is CLASS and actual content is OBJECT.
+
+
+Function Call Stack:-
+Stack-> It is a container/data structure in which data is stored in LIFO(last in first out) format.
+eg., shaadi me plate rakhi hui h mean sabse last me rakhi hai vo phele uthyenge
