@@ -11,3 +11,11 @@ Blue print is CLASS and actual content is OBJECT.
 Function Call Stack:-
 Stack-> It is a container/data structure in which data is stored in LIFO(last in first out) format.
 eg., shaadi me plate rakhi hui h mean sabse last me rakhi hai vo phele uthyenge
+
+
+Function:- First class Citizen
+        - assign to variable
+        - as an argument
+        - return Function
+        - use function in Data Struture 
+        - as property defind kar skate hai object me 
