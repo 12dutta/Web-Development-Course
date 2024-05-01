@@ -24,12 +24,22 @@
 
 
 //Function scope -> keval { } ke ander hi acces kar skte hai variable ko
-function sayName() {
-    var fullName = "Vaibhav Dutta";
-    console.log("Enpower", fullName);
-}
+// function sayName() {
+//     var fullName = "Vaibhav Dutta";
+//     console.log("Enpower", fullName);
+// }
 // console.log(fullName);
 // sayName();
 
 
 //Block scope
+{
+    const height  = 170; // let or const block scope h
+}
+console.log(height);
+
+// console.log(naam);
+// {
+//     var naam = "biitutu"; // var block scope nahi h
+// }
+// console.log(naam);
