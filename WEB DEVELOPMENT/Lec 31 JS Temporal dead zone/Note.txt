@@ -3,3 +3,8 @@ _____________________________________________Temporal Dead Zone_________________
        - Global scope -> kahi bhi chla sakte hai aur access bhi kar skte h
        - Function scope -> keval {} ke ander hi access kar skte h
        - Block scope -> let or const block scope hote h, var nahi hota mean var ko block ke bhar bhi access kar payenge par let or const ko nahi
+
+
+2. Temporal dead zone:-
+     apne let or const keyword ke duara ek Variable create kar diya or hoisting wale logic ke hisab se apne variable declaration top par move kar jati h jiss bhi file me ho jiss bhi current block me aap ho, par wha par ye bhi condition hoti h ki var wale case me hi hota h let or const me nahi hota hai.
+     

@@ -33,13 +33,26 @@
 
 
 //Block scope
-{
-    const height  = 170; // let or const block scope h
-}
-console.log(height);
+// {
+//     const height  = 170; // let or const block scope h
+// }
+// console.log(height);
 
 // console.log(naam);
 // {
 //     var naam = "biitutu"; // var block scope nahi h
 // }
 // console.log(naam);
+
+
+
+//Temporal dead zone
+console.log(mark);
+console.log("vaibhav");
+console.log("dutta");  //line 48 se 51 tak temporal dead zone hai hum mark ki value ko access nahi kar skte hai (let aur const me hi)
+let mark = 100;
+console.log(mark);
+
+
+
+//Best  Practice -> let or const se hi variable bnaya karo code ki predictability bani rahegi
