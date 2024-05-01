@@ -1,5 +1,5 @@
 _____________________________________________Temporal Dead Zone_______________________________________________
 1. Variable Scoping:-
-       - Global scope
-       - Function scope
-       - Block scope
+       - Global scope -> kahi bhi chla sakte hai aur access bhi kar skte h
+       - Function scope -> keval {} ke ander hi access kar skte h
+       - Block scope -> var ke alawa const or let se uss kar skte h 
