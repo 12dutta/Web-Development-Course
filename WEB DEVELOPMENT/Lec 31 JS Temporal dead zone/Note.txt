@@ -1,0 +1,5 @@
+_____________________________________________Temporal Dead Zone_______________________________________________
+1. Variable Scoping:-
+       - Global scope
+       - Function scope
+       - Block scope
