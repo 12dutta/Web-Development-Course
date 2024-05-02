@@ -1,0 +1,4 @@
+_____________________________________Class && Default Parameter________________________________________
+1. Classes:-
+     class ek prakar ka blue print hota hai aap btate ho ky ky ky data members rehne wale hai in pure entity ke ander, ky ky methods and function rehne wale hai iske ander aur iss class ka actual thing create karte hai toh uss instance ko hum Object kehte hai.
+     eg.- ghar banane ke liye blueprint ko class kehte h or pura ghar bankar tyaar ko hum object kehte h.
