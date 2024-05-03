@@ -1,0 +1,3 @@
+___________________________________________Common Bulid-In Object___________________________________________
+
+1. Math -> isme build-in operation hote hai une hum perform kar skte hai
