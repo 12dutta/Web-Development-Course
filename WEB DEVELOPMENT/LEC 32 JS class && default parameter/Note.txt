@@ -23,3 +23,7 @@ _____________________________________Class && Default Parameter_________________
     Constructor:-
         isse hum kissi bhi variable ki value initialized kar skte hai.
         eg., age; ki value assign karni ho
+
+
+2. Default Parameter:-
+        It allow to use function with default value mean jb aap kisi function call me value nahi denge tb vo 'undefind' behjta hai, isse hum default value assign kar skte h taki jb value assign nahi kari hi humne.
