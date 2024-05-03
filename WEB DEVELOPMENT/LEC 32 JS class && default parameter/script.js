@@ -40,7 +40,7 @@
 // }
 // sayName();
 
-function solve(value = {age:22,wt:76,ht:175}) { //hum default object bhi pass kar skte h
+function solve(value = {age:22,wt:76,ht:175}) { //hum default object bhi pass kar skte h, or array bhi pass hote
     console.log("Hello Bhai:", value);
 }
-solve();
+solve(undefined);

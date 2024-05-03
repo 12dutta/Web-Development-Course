@@ -26,4 +26,7 @@ _____________________________________Class && Default Parameter_________________
 
 
 2. Default Parameter:-
-        It allow to use function with default value mean jb aap kisi function call me value nahi denge tb vo 'undefind' behjta hai, isse hum default value assign kar skte h taki jb value assign nahi kari hi humne.
+       - It allow to use function with default value mean jb aap kisi function call me value nahi denge tb vo 'undefind' behjta hai, isse hum default value assign kar skte h taki jb value assign nahi kari hi humne.
+       - Agar hum 'null' value pass karte hai toh null hi print hoga vo default value nahi lega.
+       - Agar 'undefined' value pass karte hai toh default value hi print hogi jo assign kar rahi hogi.
+
