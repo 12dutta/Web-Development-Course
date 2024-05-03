@@ -13,4 +13,9 @@ _____________________________________Class && Default Parameter_________________
              }
 
      Public VS private
-     public can be used anywhere outside or inside but Private can not be used         
+     - public can be used anywhere outside or inside but Private can not be used
+     - kisi bhi private data member ko use karna ho toh 'this' keyword se use karnge using . then private variable name or ye keval private field me hi access kar skte hai
+     - eg., this.#weight       
+     - Agar bhar use karna h toh(private wale variable) hum Getter/Setter ki help se use kar payenge 
+     - getter setter ki use se hum encapsulation kar paye, sementic clarity hum code me add kar paye, taki hum
+     ek data production provide kar paye  

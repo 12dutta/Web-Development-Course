@@ -7,13 +7,20 @@ class Human {
 
     //behaviour
     walking () {
-        console.log("I am Walking");
+        console.log("I am Walking ", this.#Weight); //using dot current variable ka ye wala part access kar rahe ho
     }
     running() {
         console.log("I am Running");
     }
+    get fetchWeight() {
+        return this.#Weight;
+    }
+    set modifyWeight(val) {
+        this.#Weight = val;
+    }
+
 }
 //Object
 let obj = new Human();
-console.log(obj.#weight);
+// console.log(obj.#weight); //yha par #weight ko use karke syntax error throw karta hai
 obj.walking();
