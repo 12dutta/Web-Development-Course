@@ -40,7 +40,15 @@
 // }
 // sayName();
 
-function solve(value = {age:22,wt:76,ht:175}) { //hum default object bhi pass kar skte h, or array bhi pass hote
-    console.log("Hello Bhai:", value);
+// function solve(value = {age:22,wt:76,ht:175}) { //hum default object bhi pass kar skte h, or array bhi pass hote
+//     console.log("Hello Bhai:", value);
+// }
+// solve(undefined);
+
+function getAge() {
+    return 190;
 }
-solve(undefined);
+function utility(name = "Bablu", age = getAge()) {
+    console.log(name, age);
+}
+utility();
