@@ -5,6 +5,13 @@ class Human {
     #Weight = 76; //private-> # se hum private kar skte h
     Height = 170;
 
+    //constructor
+    constructor(newage, newheight, newweight) {
+        this.Age = newage;
+        this.Height = newheight;
+        this.#Weight = newweight;
+    }
+
     //behaviour
     walking () {
         console.log("I am Walking ", this.#Weight); //using dot current variable ka ye wala part access kar rahe ho
@@ -21,6 +28,6 @@ class Human {
 
 }
 //Object
-let obj = new Human();
-// console.log(obj.#weight); //yha par #weight ko use karke syntax error throw karta hai
+let obj = new Human(43, 189, 500);
+console.log(obj.fetchWeight); //yha par #weight ko use karke syntax error throw karta hai
 obj.walking();
