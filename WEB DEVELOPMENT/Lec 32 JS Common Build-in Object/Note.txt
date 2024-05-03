@@ -1,3 +1,4 @@
 ___________________________________________Common Bulid-In Object___________________________________________
 
-1. Math -> isme build-in operation hote hai une hum perform kar skte hai
+1. Math Object -> isme build-in operation hote hai une hum perform kar skte hai.
+2. Date Object -> issme hum current date or time print kar skte hai.
