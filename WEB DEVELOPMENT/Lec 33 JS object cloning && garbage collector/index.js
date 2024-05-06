@@ -22,7 +22,7 @@ console.log("dest: ", dest);
 //     value:101,
 //     name:"vaibhav dutta"
 // };
-
+// src.age = 34;
 // let dest = Object.assign({}, src, src2);
 // console.log("src: ", src);
 // console.log("dest: ", dest);
