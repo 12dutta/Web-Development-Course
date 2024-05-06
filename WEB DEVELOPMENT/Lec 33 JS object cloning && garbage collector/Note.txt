@@ -7,3 +7,10 @@ _______________________________Object Cloning && Garbage Collector______________
         - Spread Operator-> (...) by three dot
         - Assign 
         - Iteration
+
+
+2. Garbage Collector:-
+   - ye ek memory management tool hai jiska prime focus bas ye h ke ek ahesi memory jo use me nahi hai usko free karwata hai, performance ko improve karata hai aou memory leaks se bchata hai use garbage collector khete hai.
+   - aur jo memory use nahi ho rahi use ye hta deta hai unwanted memory ko saaf karta hai.
+   - humara koi control nahi hai garbage collector pe.
+   - hmesa background me run karta rehega.        
