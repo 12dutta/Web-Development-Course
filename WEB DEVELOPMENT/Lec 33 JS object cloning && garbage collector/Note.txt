@@ -1,1 +1,3 @@
 _______________________________Object Cloning && Garbage Collector_______________________________
+
+- Object are Dynamic in Nature kyuki run time pe uski state ko, uski destination ko change kar skte ho.
