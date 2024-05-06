@@ -1,3 +1,8 @@
 _______________________________Object Cloning && Garbage Collector_______________________________
 
 - Object are Dynamic in Nature kyuki run time pe uski state ko, uski destination ko change kar skte ho.
+
+1. Object Cloning:-
+     3 ways to clone
+        - Spread Operator-> (...) by three dot
+        - Assign 

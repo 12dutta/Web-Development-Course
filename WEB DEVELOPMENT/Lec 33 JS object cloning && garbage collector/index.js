@@ -1,8 +1,21 @@
-let obj = {
+let src = {
     age: 22,
     wt: 76,
     ht: 179
-}
-console.log(obj);
-obj.color = "white";
-console.log(obj);
+};
+//Assign
+let dest = Object.assign({}, src);
+console.log("src: ", src);
+console.log("dest: ", dest);
+
+
+//Spread operator
+// let dest = {...src};
+// src.age = 34;
+// console.log("src: ", src);
+// console.log("dest: ", dest);
+
+
+// console.log(obj);
+// obj.color = "white";
+// console.log(obj);
