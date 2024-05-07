@@ -8,5 +8,9 @@ Types of Error:-
 
 
 Handling:-
-    try -catch block 
+    - try -catch block 
     - finally block:- this will run everytime
+
+
+Show/Propagate/Return:-
+    - error ko customize karna hai toh 'throw' keyword ka use karenge.
