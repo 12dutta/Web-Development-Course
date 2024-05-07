@@ -1,0 +1,7 @@
+_________________________________________Error Handling_________________________________________
+Error:-
+    It is just an event which impact acts and disturb the normal flow of the execution of your code.
+
+Types of Error:-
+    - Compile time error: code execute hone se phele hi pta chal jata hai ki error h, jb parse ho rahe hote h tb ye error milte hai, code execute karne ki jarurat nahi padti.
+    - Run time error: when the code execute ho raha tb error ko run time bolenge.
