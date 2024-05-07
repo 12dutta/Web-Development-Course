@@ -11,6 +11,7 @@ try {
     console.log(x); 
 }
 catch(e) {
+    //isme define karte hai ki, error ke saath ky karna chate hai.
     console.log("I am inside the catch block");
     console.log("Your error is here: ", e);
 }

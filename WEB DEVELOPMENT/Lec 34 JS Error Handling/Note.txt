@@ -9,3 +9,4 @@ Types of Error:-
 
 Handling:-
     try -catch block 
+    - finally block:- this will run everytime
