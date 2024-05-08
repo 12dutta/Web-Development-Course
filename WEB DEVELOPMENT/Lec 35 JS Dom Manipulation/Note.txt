@@ -1,0 +1,12 @@
+____________________________________JS Dom Manipulation______________________________________
+
+Window:-
+    -> created by browser
+    -> object -> global object - sare global var, global method sb iske under lye karte h
+    -> Top herhical me ahata h 
+
+Dom:-
+    -> Document Object Model
+    -> apke HTML code ko convert kar liya apne javascript code me JS object ke ander and that javascript object is called Document. iss pure ko DOM kehte h.
+    -> <HTML>-> character-> tags-> token-> node-> DOM
+    -> 
