@@ -4,9 +4,21 @@ Window:-
     -> created by browser
     -> object -> global object - sare global var, global method sb iske under lye karte h
     -> Top herhical me ahata h 
+    -> sb kuch iske ander ly karta h.
 
 Dom:-
     -> Document Object Model
     -> apke HTML code ko convert kar liya apne javascript code me JS object ke ander and that javascript object is called Document. iss pure ko DOM kehte h.
     -> <HTML>-> character-> tags-> token-> node-> DOM
-    -> 
+    -> html content ko alag tag me fir token milkar bhout sare node bante hai vo sb node milkar DOM bnate hai.
+
+Bom:-
+    -> Browser Object Model
+    -> jo bhi interaction browser ke sath ho ri h, except the html content one all those interaction (screen size, navigation, location, any kind of data) ye sari interaction apke Bom ke under ahati h .
+
+Change HTML:-
+    |__ Access kar skte h
+          |__ ID
+          |__ class name
+          |__ tag name
+- In response we get single output or multiple output in html code
