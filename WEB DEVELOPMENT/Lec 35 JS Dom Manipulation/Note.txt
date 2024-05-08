@@ -22,3 +22,7 @@ Change HTML:-
           |__ class name
           |__ tag name
 - In response we get single output or multiple output in html code
+- html code ko fetch kar skte h 
+- getElementryById -> ye apke html code ki particular id fetch karke deta h ek single output ke saath. jo bhi id hum provide kar rehe.
+- getElementryByClassName -> isse hum multiple fetch kar skte h.
+- getElementryByTagName -> isme hum tag se fetch kar skte hai.
