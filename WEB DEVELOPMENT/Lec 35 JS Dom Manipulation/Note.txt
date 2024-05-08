@@ -39,5 +39,7 @@ $0:- doller 0 ($0) se bhi hum directly fetchkar sakte hai.
 How to update existing html code ?:-
         |__ Inner HTML - kisi bhi html code ke inner part me Get/Set kar skte h
         |__ Outer HTML
-        |__ text-content
-        |__ inner text
+        |__ text-content -  sare enter count karta hai (jaise apne code me write down kar hoga waise hi show ya print hoga apke console ya fir output me).
+        |__ inner text - keval har tag ke baad me hi enter count karta hai (jo browser Window pe render hoga wahi show hoga).
+        
+- textContent VS innerText -> jaise aap apke element ko render karte UI par same ussi prakar apka inner text apko output dega.
