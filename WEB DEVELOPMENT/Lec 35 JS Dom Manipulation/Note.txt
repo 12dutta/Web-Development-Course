@@ -26,3 +26,18 @@ Change HTML:-
 - getElementryById -> ye apke html code ki particular id fetch karke deta h ek single output ke saath. jo bhi id hum provide kar rehe.
 - getElementryByClassName -> isse hum multiple fetch kar skte h.
 - getElementryByTagName -> isme hum tag se fetch kar skte hai.
+
+Query Selector:-
+- isse hum (#-ID, .-Class, tag) ko acces kar skte hai.
+- querySelector('#fpara'); -> isme toh sare id show karega.
+- par querySelector class or tag me keval ek vo bhi jo phele hai wahi show karega.
+- isliye querySelectorAll('p'); se sare tag ya class fetch kar skte h.
+
+$0:- doller 0 ($0) se bhi hum directly fetchkar sakte hai.
+
+
+How to update existing html code ?:-
+        |__ Inner HTML - kisi bhi html code ke inner part me Get/Set kar skte h
+        |__ Outer HTML
+        |__ text-content
+        |__ inner text
