@@ -36,10 +36,24 @@ Query Selector:-
 $0:- doller 0 ($0) se bhi hum directly fetchkar sakte hai.
 
 
-How to update existing html code ?:-
+How to update existing html code:-
         |__ Inner HTML - kisi bhi html code ke inner part me Get/Set kar skte h
         |__ Outer HTML
         |__ text-content -  sare enter count karta hai (jaise apne code me write down kar hoga waise hi show ya print hoga apke console ya fir output me).
         |__ inner text - keval har tag ke baad me hi enter count karta hai (jo browser Window pe render hoga wahi show hoga).
-        
+
 - textContent VS innerText -> jaise aap apke element ko render karte UI par same ussi prakar apka inner text apko output dega.
+
+
+How to Add Element:-
+    |__ creation -> by createElement()
+    |__ .appendChild()-> child add-> sbse last me add hoga 
+
+- ky hum decide kar skte hai ki konsi position pe add karna hai -> Ha kar skte h
+                |__ insertAdjacentHTML() ki help se (do cheze provide karni padti hai)
+                            |__ Positon -> konsi position pe add 
+                                    |__ beforbegin
+                                    |__ afterbegin
+                                    |__ beforend
+                                    |__ afterend 
+                            |__ HTML content -> apka content ky hai 
