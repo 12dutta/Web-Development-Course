@@ -50,7 +50,8 @@ How to Add Element:-
     |__ .appendChild()-> child add-> sbse last me add hoga 
 
 - ky hum decide kar skte hai ki konsi position pe add karna hai -> Ha kar skte h
-                |__ insertAdjacentHTML() ki help se (do cheze provide karni padti hai)
+                |__ insertAdjacentElement() ki help se (do cheze provide karni padti hai)
+                - kahi bhi insert kara skte hai
                             |__ Positon -> konsi position pe add 
                                     |__ beforbegin
                                     |__ afterbegin
