@@ -58,3 +58,9 @@ How to Add Element:-
                                     |__ beforend
                                     |__ afterend 
                             |__ HTML content -> apka content ky hai 
+
+
+Removal:- (kaise remove karna hai)
+    |__ removeChild()-> opposite of appendChild() 
+        - isme parent or child dono hona jaruri hai isse hi pta chalega ki koinse parent ke konsi child ko remove karna hai.
+        - parent-> removeChild(child);
