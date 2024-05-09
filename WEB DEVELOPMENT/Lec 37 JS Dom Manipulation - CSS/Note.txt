@@ -1,0 +1,8 @@
+_____________________________JS DOM Manipulation - CSS_________________________________
+
+Changing CSS:-
+    |__ external css 
+    |__ inline css 
+    |__ internal css    
+  .style-> se Set or Get kar skte hai  
+  
